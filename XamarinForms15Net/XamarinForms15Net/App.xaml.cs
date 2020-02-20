@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinForms15Net.Views;
 
 namespace XamarinForms15Net
 {
@@ -10,7 +11,7 @@ namespace XamarinForms15Net
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Cadastro();
         }
 
         protected override void OnStart()
